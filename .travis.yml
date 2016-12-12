@@ -1,3 +1,5 @@
+## sudo required forces job to run in a vm instead of in a container
+sudo: required
 install: true
 language: c
 compiler:
