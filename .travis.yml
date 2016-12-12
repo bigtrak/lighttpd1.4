@@ -2,4 +2,5 @@ install: true
 language: c
 compiler:
 - gcc
-script: ./autogen.sh && ./configure && make
+# script: ./autogen.sh && ./configure && make
+script: scons
